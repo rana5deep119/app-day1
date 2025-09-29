@@ -4,7 +4,7 @@ import { Image, StyleSheet, View } from "react-native";
 export default function Img({uri}:{ uri:string }){
   return (
     <View style={styles.cardcont}>
-      <Image source={{uri}} style={styles.image} />
+    <Image source={{uri}} style={styles.image} />
     </View>
   );
 }
